@@ -49,6 +49,13 @@ Automating web projects using Ruby, Capybara, and Cucumber.
           - `cucumber`
 
 
-
+## Browser Configuration ##
+      - cucumber.yml
+          To execute with Chrome web browser
+              default: --format pretty -p html --publish-quiet -p chrome
+              
+          To execute with Firefox web browser
+              default: --format pretty -p html --publish-quiet -p firefox
+              
 
 **E-mail:** luiz.gmacedo@gmail.com
