@@ -11,5 +11,4 @@ end
 Então('todos os laboratórios correspondentes são confirmados') do
     #Validação e localização de Laboratórios em SP com exibição de lista no Console
     @nossas_marcas_lab.dasa_lab_sp
-    sleep(7)
 end
