@@ -1,0 +1,9 @@
+#Mudar o default para o browser o qual deseja validar (exemplo: chrome, firefox e safari)
+default: --format pretty -p html --publish-quiet -p chrome
+
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+safari: BROWSER=safari
+html: --format html --out=reports/relatorio.html
+producao: AMBIENTE=producao
+homolog: AMBIENTE=homolog
