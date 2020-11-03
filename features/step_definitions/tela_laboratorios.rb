@@ -9,6 +9,6 @@ E('a lista de Laboratórios de São Paulo for identificada a apresentada no cons
 end
 
 Então('todos os laboratórios correspondentes são confirmados') do
-    #Validação e localização de Laboratórios em SP com exibição de lista no Console
+    #Validação e localização de Laboratórios em SP com exibição de lista
     @nossas_marcas_lab.dasa_lab_sp
 end
